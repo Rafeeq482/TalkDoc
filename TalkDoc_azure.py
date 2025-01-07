@@ -5,10 +5,10 @@ import streamlit as st
 import azure.cognitiveservices.speech as speechsdk
 
 # Azure AI Speech API credentials
-azure_api_key = "A7HoBvgDewKVKE4AxOTECa3AZW7UvT9Mv9YZw9uRwti53GqtylxlJQQJ99ALACYeBjFXJ3w3AAAEACOGYICe"
+azure_api_key = "Your api key"
 azure_region = "eastus"
-openai_api_key = "B08k2G441vX09NJoA6ZHZQ11ztcIL0K88mJi7Wnr5xmA52TJWjGXJQQJ99ALACYeBjFXJ3w3AAABACOGgRro"  # Replace with your Azure OpenAI API key
-openai_endpoint = "https://opanai777777777.openai.azure.com/"  # Replace with your Azure OpenAI endpoint
+openai_api_key = "your api key"  # Replace with your Azure OpenAI API key
+openai_endpoint = "your end point"  # Replace with your Azure OpenAI endpoint
 deployment_id = "gpt-35-turbo-16k"  # Replace with your Azure OpenAI deployment ID
 
 # Set up the OpenAI API key and endpoint for Azure OpenAI
